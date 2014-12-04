@@ -5,14 +5,14 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.URISyntaxException;
+//import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import com.example.papunetviittoma.MainPapunet.OneImage;
+//import com.example.papunetviittoma.MainPapunet.OneImage;
 
 import android.app.Activity;
 import android.os.AsyncTask;
@@ -106,7 +106,7 @@ public class SettingsActivity extends Activity {
 		
 		if (this.countOfDbElements <= 0 ) {
 			// Calculation must be done before
-			tView.setText("Tietokanta on tyhjä tai koon laskentaa ei ole tehty");
+			tView.setText("Tietokanta on tyhjï¿½ tai koon laskentaa ei ole tehty");
 			return;
 		}
 		int imageCount = 0;
@@ -128,7 +128,7 @@ public class SettingsActivity extends Activity {
 		s_url = tUrl.getText().toString();
 		if (s_url.isEmpty()) {
 			// Address is missing
-			tView.setText("Anna toimiva http-osoite, josta löytyy kuvaloki.");
+			tView.setText("Anna toimiva http-osoite, josta lï¿½ytyy kuvaloki.");
 			return;
 		}
 		if ( ! s_url.startsWith("http://") ) {
@@ -205,7 +205,7 @@ public class SettingsActivity extends Activity {
     		TextView tView = (TextView)findViewById(R.id.textViewStatusInfo);
     		int addedCount = 0;
 
-			tView.setText("Tarkistetaan uudet " + Integer.toString(result.size()) + " merkinnät");
+			tView.setText("Tarkistetaan uudet " + Integer.toString(result.size()) + " merkinnï¿½t");
 
     		for (Iterator<String> i = result.iterator(); i.hasNext(); ) {
     			String item = i.next();
