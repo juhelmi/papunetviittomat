@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <ImageView
+        android:id="@+id/imageViewSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonPrev"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonPrev"
+        android:layout_below="@+id/buttonGetPapunet"
+        android:text="@string/infoText" />
+
+    <EditText
+        android:id="@+id/editTextWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonPrev"
+        android:layout_alignBottom="@+id/buttonPrev"
+        android:layout_alignLeft="@+id/buttonExit"
+        android:text="@string/nextText" />
+
+    <Button
+        android:id="@+id/buttonPrev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/buttonGetPapunet"
+        android:layout_below="@+id/textViewInfo"
+        android:layout_marginTop="14dp"
+        android:text="@string/prevText" />
+
+    <TextView
+        android:id="@+id/textViewImageInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/buttonPrev"
+        android:text="@string/imageInfoText" />
+
+    <TextView
+        android:id="@+id/textViewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editTextWord"
+        android:layout_alignBottom="@+id/editTextWord"
+        android:layout_alignParentLeft="true"
+        android:text="@string/EnterHelpText" />
+
+    <Button
+        android:id="@+id/buttonGetPapunet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextWord"
+        android:layout_toLeftOf="@+id/editTextWord"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:onClick="buttonGetPapunet"
+        android:text="@string/getSignText" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonGetPapunet"
+        android:layout_alignBottom="@+id/buttonGetPapunet"
+        android:layout_toRightOf="@+id/buttonGetPapunet"
+        android:text="@string/exitText" />
+
+    <EditText
+        android:id="@+id/editTextDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonNext"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/buttonExit"
+        android:layout_toRightOf="@+id/buttonExit"
+        android:ems="10"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/buttonSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewInfo"
+        android:layout_alignLeft="@+id/editTextDb"
+        android:text="@string/settingsText" />
+
+</RelativeLayout>

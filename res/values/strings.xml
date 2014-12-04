@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Papunetin viittomat</string>
+    <string name="hello_world">Heippa maailma!</string>
+    <string name="EnterHelpText">Syötä sana</string>
+    <string name="exitText">Poistu</string>
+    <string name="nextText">Seuraava</string>
+    <string name="prevText">Edellinen</string>
+    <string name="getSignText">Hae</string>
+    <string name="infoText">Mitään ei ole vielä haettu</string>
+    <string name="imageInfoText">Kuvaa ei ole vielä haettu</string>
+    <string name="settingsText">Asetukset</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="SearchWordInitText">Sanaston alustus</string>
+    <string name="InitSearchWordsButtonText">Hae hakusanoja</string>
+    <string name="ClearSearchDbButton">Tyhjennä hakutietokanta</string>
+    <string name="DbInfoWarning">Tietokannan tyhjennys unohtaa kaikki vanhat haut.</string>
+    <string name="CalculateSearchDbSizeButton">Laske hakutietokannan koko</string>
+
+</resources>
