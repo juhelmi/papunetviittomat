@@ -1,5 +1,5 @@
 #!/bin/bash
-#find . -name "*png"|grep res|xargs -n 1 tools/launch_kopio.sh ic_launcher-web.png
+#find . -name "*png"|grep res|grep -v bin|xargs -n 1 tools/launch_kopio.sh ic_launcher-web.png
 
 if [ $# -ne 2 ] ; then
     echo Virheellinen parametrien määrä
