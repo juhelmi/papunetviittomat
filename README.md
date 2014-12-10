@@ -7,3 +7,8 @@ Rest of document is in Finnish as target is in language...
 Ohje löytyy http://www.iki.fi/jhelmine/viittoma/Ohje.html
 
 Lisää ohjeita tulee tarpeen mukaan.
+
+Versionhallinnasta ja sen käytöstä:
+master haarassa on todennäköisimmin vastaava softa kuin on viimeisin 
+'release'. Tuoreempia muutoksia kannattaa etsiä toisista haaroista, 
+kuten testi (mitä nimiä sitten tuleekaan käytettyä).
